@@ -1,0 +1,139 @@
+/* #region Global */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  list-style-type: none;
+}
+body {
+  padding: 50px 20px 25px 20px;
+  background-color: black;
+  color: white;
+}
+.hidden {
+  display: none;
+}
+/* #endregion global */
+#goto-top {
+  background-color: #fbe850;
+  width: 30px;
+  height: 30px;
+  color: black;
+  text-align: center;
+  font-size: 30px;
+  position: fixed;
+  right: 25px;
+  bottom: 25px;
+  cursor: pointer;
+}
+/* #region  nav */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 0 25px 0;
+}
+nav .hamburger-menu {
+  display: none;
+}
+nav .head-links {
+  color: #bbb;
+  display: flex;
+}
+nav .head-links a {
+  margin: 0 5px;
+  text-decoration: none;
+  color: inherit;
+}
+.get-in-touch {
+  background-color: #fbe850;
+  color: black;
+  border: none;
+  padding: 10px 20px;
+  user-select: none;
+  cursor: pointer;
+}
+/* #endregion nav */
+
+/* #region head */
+.head-div {
+  padding: 25px 0;
+}
+.head-div h1 {
+  margin-bottom: 10px;
+}
+.head-div p {
+  line-height: 20px;
+}
+/* #endregion head */
+
+/* #region .companies-logos */
+.companies-logos {
+  display: flex;
+  justify-content: space-between;
+}
+.companies-logos img {
+  width: 50px;
+}
+/* #endregion .companies-logos */
+
+/* #region .example-sites */
+.example-sites {
+  margin: 25px 0;
+  display: flex;
+  justify-content: space-between;
+}
+.example-sites > div {
+  width: 47%;
+}
+.example-sites h3 {
+  padding: 10px 0;
+}
+.example-sites p {
+  line-height: 20px;
+}
+.example-sites img {
+  width: 100%;
+}
+/* #endregion .example-sites */
+
+/* #region third-div */
+.third-div {
+  display: flex;
+  background-color: #2e3038;
+  margin: 0 -20px;
+  justify-content: space-between;
+}
+.third-div div {
+  /* margin: 0 20px; */
+  width: 47%;
+}
+.third-div div:first-of-type {
+  margin: 0 20px;
+}
+.third-div div * {
+  margin: 10px 0;
+}
+/* #endregion third-div */
+
+/* #region before-footer */
+.before-footer * {
+  margin: 10px 0;
+}
+
+/* #endregion before-footer */
+
+/* #region footer */
+footer {
+  margin: 0 -20px;
+  padding: 10px 20px;
+  background-color: #2e3038;
+  display: flex;
+  justify-content: space-between;
+}
+footer img {
+  margin: 0 5px;
+  cursor: pointer;
+}
+/* #endregion footer */
