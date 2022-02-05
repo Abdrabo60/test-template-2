@@ -34,7 +34,7 @@ nav {
   align-items: center;
   padding: 0 0 25px 0;
 }
-nav .hamburger-menu {
+nav #hamburger-menu {
   display: none;
 }
 nav .head-links {
