@@ -16,28 +16,27 @@
 
   .companies-logos {
     display: grid;
-    grid-template-columns: auto auto ;
+    grid-template-columns: auto auto;
     justify-content: space-around;
   }
   .companies-logos img {
     width: 100px;
+    margin: 10px;
   }
-  .example-sites{
-    display:block;
+  .example-sites {
+    display: block;
   }
-  .example-sites div{
-    width:100%;
+  .example-sites div {
+    width: 100%;
   }
-  .third-div{
-    display:block;
+  .third-div {
+    display: block;
   }
-  .third-div div{
-    width:100%;
-    margin:0 20px;
-    
+  .third-div div {
+    width: 100%;
+    margin: 0 20px;
   }
   .third-div div * {
     width: calc(100% - 40px);
-}
-
+  }
 }
